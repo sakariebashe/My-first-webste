@@ -1,0 +1,273 @@
+.navbar{
+    margin: 0;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+    
+    
+    
+    
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 60px;
+    line-height: 7cap;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+    
+}
+
+.navbar label{
+    line-height: 7cap;
+    color: white;
+    font-size: bold;
+    
+    
+    
+}
+
+.navbar input{
+    border-radius: 2px;
+    height: 25px;
+    padding-right: 40px;
+    
+}
+
+.button{
+    border-radius: 100px;
+    
+    
+    padding: 10px 14px;
+    color: black;
+    background-color: rgb(70, 168, 50)
+    
+}
+
+.button:hover{
+    color: white;
+}
+
+.navbar h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 600;
+    padding-left: 40px;
+    color: rgb(16, 110, 5);
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.main{
+    min-height: 100vh;
+    padding:0;
+    margin:0;
+    display: flex;
+    filter: brightness(50%);
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:url(image1.jpg)
+    
+    
+    
+    
+    
+}
+
+.main h3{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #fff3cd;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+    margin-top: 0;
+    padding-left: 20px;
+    text-align: center;
+    margin-top: 300px;
+    opacity: 2;
+    transform: translateY(60px);
+    animation: fadeUp 1s ease-out forwards;
+
+}
+    
+    
+
+
+.main p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 0px;
+    opacity: 2;
+    transform: translateY(60px);
+    animation: fadeUp 1s ease-out forwards;
+    animation-delay: 0.4s;
+    color:black;
+    text-shadow: rgba(0, 0, 0, 0.8);
+    
+}
+
+.buttn{
+    margin-top: 60px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 14px;
+    color:black;
+    background-color: green;
+
+}
+
+.buttn:hover{ 
+    color: white;
+    background-color: brown;
+
+}
+
+.boxes{
+    display:flex;
+    justify-content: space-around;
+    width: 400px;
+    gap: 30px;
+    padding: 1px 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    min-height: 100vh;
+
+
+    
+    
+    
+}
+
+.box{
+    height: 300px;
+    min-width: 200px;
+    background: green;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding-top: 90px;
+    margin-top: 20px;
+    margin: 120px;
+
+}
+.box:hover{
+    color: white;
+    transition: 2s; 
+    background-color: brown;
+}
+
+.h1{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+.Logo {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+    
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(53, 57, 64)
+    
+    
+}
+
+.footer h3{
+    color: green;
+    font-weight: bold;
+    margin-top: 0px
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.footer p{
+    color: white;
+}
+
+.contact h1{
+    line-height: 10cap;
+    color: white;
+}
+
+
+
+.contact label{
+    padding-left: 100px;
+    font-weight: bold;
+    color: green;
+    
+    
+    
+
+    
+
+    
+}
+
+.contact input{
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.ourservice h1{ 
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+
+.ourservice p{
+    padding-bottom: 40px;
+    padding-left: 20px;
+    line-height: 4cap;
+    color: white;
+}
+
+.ourservice h2{
+    padding-left: 15px;
+    color: green;
+    font-weight: bold;
+}
+
+
+
+
+    
+
+
+
+
